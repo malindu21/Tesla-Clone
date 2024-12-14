@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4934E9D42A518A260097CDFA /* ValetModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934E9D32A518A260097CDFA /* ValetModeView.swift */; };
+		4934E9D92A51AC990097CDFA /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934E9D82A51AC990097CDFA /* LocationView.swift */; };
+		4934E9DB2A51E3200097CDFA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4934E9DA2A51E3200097CDFA /* Location.swift */; };
+		494C71F42A4CA6EE0057A27E /* AllSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C71F32A4CA6EE0057A27E /* AllSettings.swift */; };
+		494C71F62A4CAE070057A27E /* SettingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C71F52A4CAE070057A27E /* SettingCard.swift */; };
+		494C71F82A4CE43D0057A27E /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494C71F72A4CE43D0057A27E /* ReorderButton.swift */; };
+		494E126F2A499F5F00E438CD /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E126E2A499F5F00E438CD /* CategoryHeader.swift */; };
+		494E12732A49B28B00E438CD /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E12722A49B28B00E438CD /* CategoryView.swift */; };
+		494E12752A49B84900E438CD /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E12742A49B84900E438CD /* ActionButton.swift */; };
+		494E127A2A4A2FF800E438CD /* ActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E12792A4A2FF800E438CD /* ActionItem.swift */; };
+		49823EFF2A4F4059008F7CAF /* CarControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49823EFE2A4F4059008F7CAF /* CarControlsView.swift */; };
+		49823F012A507CF3008F7CAF /* CarLockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49823F002A507CF3008F7CAF /* CarLockButton.swift */; };
+		49823F032A509B50008F7CAF /* CarControlActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49823F022A509B50008F7CAF /* CarControlActions.swift */; };
+		499B085D2A61A3E900740F69 /* FullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B085C2A61A3E900740F69 /* FullButton.swift */; };
+		499B085F2A61B7C700740F69 /* ActionNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B085E2A61B7C700740F69 /* ActionNotification.swift */; };
+		499B08612A61C67000740F69 /* VoiceCommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B08602A61C67000740F69 /* VoiceCommandView.swift */; };
+		499B08642A61D41100740F69 /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B08632A61D41100740F69 /* MediaPlayerView.swift */; };
+		499B08672A6227E700740F69 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B08662A6227E700740F69 /* View+Extensions.swift */; };
+		499B086A2A622BF800740F69 /* ChargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B08692A622BF800740F69 /* ChargingView.swift */; };
+		49A206622A486D07005014D4 /* TeslaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206612A486D07005014D4 /* TeslaApp.swift */; };
+		49A206642A486D07005014D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206632A486D07005014D4 /* ContentView.swift */; };
+		49A206662A486D08005014D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A206652A486D08005014D4 /* Assets.xcassets */; };
+		49A206692A486D08005014D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A206682A486D08005014D4 /* Preview Assets.xcassets */; };
+		49A206732A4886E6005014D4 /* VoiceCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206722A4886E6005014D4 /* VoiceCommandButton.swift */; };
+		49A206762A488D78005014D4 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206752A488D78005014D4 /* HomeHeader.swift */; };
+		49A206782A489210005014D4 /* GeneralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206772A489210005014D4 /* GeneralButton.swift */; };
+		49A2067A2A489652005014D4 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A206792A489652005014D4 /* CustomDivider.swift */; };
+		49A2067C2A4898C7005014D4 /* CarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A2067B2A4898C7005014D4 /* CarSection.swift */; };
+		49AAAB8A2A76905800D776DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAAB892A76905800D776DC /* HomeView.swift */; };
+		49AAAB8E2A7692BD00D776DC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AAAB8D2A7692BD00D776DC /* SplashView.swift */; };
+		49FAFBB92A5DCFBB00D35C5E /* CarPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAFBB82A5DCFBB00D35C5E /* CarPin.swift */; };
+		49FAFBBB2A5DE00D00D35C5E /* LocationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FAFBBA2A5DE00D00D35C5E /* LocationPanel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4934E9D32A518A260097CDFA /* ValetModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValetModeView.swift; sourceTree = "<group>"; };
+		4934E9D82A51AC990097CDFA /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		4934E9DA2A51E3200097CDFA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		494C71F32A4CA6EE0057A27E /* AllSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSettings.swift; sourceTree = "<group>"; };
+		494C71F52A4CAE070057A27E /* SettingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCard.swift; sourceTree = "<group>"; };
+		494C71F72A4CE43D0057A27E /* ReorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorderButton.swift; sourceTree = "<group>"; };
+		494E126E2A499F5F00E438CD /* CategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		494E12722A49B28B00E438CD /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		494E12742A49B84900E438CD /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		494E12792A4A2FF800E438CD /* ActionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItem.swift; sourceTree = "<group>"; };
+		49823EFE2A4F4059008F7CAF /* CarControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarControlsView.swift; sourceTree = "<group>"; };
+		49823F002A507CF3008F7CAF /* CarLockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarLockButton.swift; sourceTree = "<group>"; };
+		49823F022A509B50008F7CAF /* CarControlActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarControlActions.swift; sourceTree = "<group>"; };
+		499B085C2A61A3E900740F69 /* FullButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullButton.swift; sourceTree = "<group>"; };
+		499B085E2A61B7C700740F69 /* ActionNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionNotification.swift; sourceTree = "<group>"; };
+		499B08602A61C67000740F69 /* VoiceCommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandView.swift; sourceTree = "<group>"; };
+		499B08632A61D41100740F69 /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		499B08662A6227E700740F69 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		499B08692A622BF800740F69 /* ChargingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingView.swift; sourceTree = "<group>"; };
+		49A2065E2A486D07005014D4 /* Tesla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A206612A486D07005014D4 /* TeslaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaApp.swift; sourceTree = "<group>"; };
+		49A206632A486D07005014D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49A206652A486D08005014D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49A206682A486D08005014D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49A206722A4886E6005014D4 /* VoiceCommandButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCommandButton.swift; sourceTree = "<group>"; };
+		49A206752A488D78005014D4 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		49A206772A489210005014D4 /* GeneralButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralButton.swift; sourceTree = "<group>"; };
+		49A206792A489652005014D4 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		49A2067B2A4898C7005014D4 /* CarSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSection.swift; sourceTree = "<group>"; };
+		49AAAB892A76905800D776DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49AAAB8D2A7692BD00D776DC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		49FAFBB82A5DCFBB00D35C5E /* CarPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPin.swift; sourceTree = "<group>"; };
+		49FAFBBA2A5DE00D00D35C5E /* LocationPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPanel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49A2065B2A486D07005014D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4934E9D52A51A8DE0097CDFA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				49AAAB892A76905800D776DC /* HomeView.swift */,
+				49A206752A488D78005014D4 /* HomeHeader.swift */,
+				49A2067B2A4898C7005014D4 /* CarSection.swift */,
+				494E126E2A499F5F00E438CD /* CategoryHeader.swift */,
+				494E12722A49B28B00E438CD /* CategoryView.swift */,
+				494C71F32A4CA6EE0057A27E /* AllSettings.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4934E9D62A51A9A80097CDFA /* CarControl */ = {
+			isa = PBXGroup;
+			children = (
+				49823EFE2A4F4059008F7CAF /* CarControlsView.swift */,
+				49823F022A509B50008F7CAF /* CarControlActions.swift */,
+				4934E9D32A518A260097CDFA /* ValetModeView.swift */,
+			);
+			path = CarControl;
+			sourceTree = "<group>";
+		};
+		4934E9D72A51AC810097CDFA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				4934E9D82A51AC990097CDFA /* LocationView.swift */,
+				49FAFBBA2A5DE00D00D35C5E /* LocationPanel.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		494E12782A4A2FC900E438CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				494E12792A4A2FF800E438CD /* ActionItem.swift */,
+				4934E9DA2A51E3200097CDFA /* Location.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		499B08622A61D3A400740F69 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				499B08632A61D41100740F69 /* MediaPlayerView.swift */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		499B08652A6227AD00740F69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				499B08662A6227E700740F69 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		499B08682A622BA500740F69 /* Charging */ = {
+			isa = PBXGroup;
+			children = (
+				499B08692A622BF800740F69 /* ChargingView.swift */,
+			);
+			path = Charging;
+			sourceTree = "<group>";
+		};
+		49A206552A486D07005014D4 = {
+			isa = PBXGroup;
+			children = (
+				49A206602A486D07005014D4 /* Tesla */,
+				49A2065F2A486D07005014D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49A2065F2A486D07005014D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49A2065E2A486D07005014D4 /* Tesla.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49A206602A486D07005014D4 /* Tesla */ = {
+			isa = PBXGroup;
+			children = (
+				49A2066F2A48863C005014D4 /* App */,
+				494E12782A4A2FC900E438CD /* Model */,
+				49A206712A488685005014D4 /* Components */,
+				49A206742A4888F1005014D4 /* View */,
+				499B08652A6227AD00740F69 /* Extensions */,
+				49A206652A486D08005014D4 /* Assets.xcassets */,
+				49A206672A486D08005014D4 /* Preview Content */,
+			);
+			path = Tesla;
+			sourceTree = "<group>";
+		};
+		49A206672A486D08005014D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				49A206682A486D08005014D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49A2066F2A48863C005014D4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49A206612A486D07005014D4 /* TeslaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49A206712A488685005014D4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				494E12742A49B84900E438CD /* ActionButton.swift */,
+				499B085E2A61B7C700740F69 /* ActionNotification.swift */,
+				49823F002A507CF3008F7CAF /* CarLockButton.swift */,
+				49FAFBB82A5DCFBB00D35C5E /* CarPin.swift */,
+				49A206792A489652005014D4 /* CustomDivider.swift */,
+				499B085C2A61A3E900740F69 /* FullButton.swift */,
+				49A206772A489210005014D4 /* GeneralButton.swift */,
+				494C71F72A4CE43D0057A27E /* ReorderButton.swift */,
+				494C71F52A4CAE070057A27E /* SettingCard.swift */,
+				49A206722A4886E6005014D4 /* VoiceCommandButton.swift */,
+				499B08602A61C67000740F69 /* VoiceCommandView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		49A206742A4888F1005014D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49AAAB8B2A7691D000D776DC /* Root */,
+				499B08682A622BA500740F69 /* Charging */,
+				499B08622A61D3A400740F69 /* MediaPlayer */,
+				4934E9D72A51AC810097CDFA /* Location */,
+				4934E9D52A51A8DE0097CDFA /* Home */,
+				4934E9D62A51A9A80097CDFA /* CarControl */,
+				49AAAB8C2A76928000D776DC /* Splash */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		49AAAB8B2A7691D000D776DC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				49A206632A486D07005014D4 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		49AAAB8C2A76928000D776DC /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				49AAAB8D2A7692BD00D776DC /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49A2065D2A486D07005014D4 /* Tesla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49A2066C2A486D08005014D4 /* Build configuration list for PBXNativeTarget "Tesla" */;
+			buildPhases = (
+				49A2065A2A486D07005014D4 /* Sources */,
+				49A2065B2A486D07005014D4 /* Frameworks */,
+				49A2065C2A486D07005014D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tesla;
+			productName = Tesla;
+			productReference = 49A2065E2A486D07005014D4 /* Tesla.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49A206562A486D07005014D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					49A2065D2A486D07005014D4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 49A206592A486D07005014D4 /* Build configuration list for PBXProject "Tesla" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49A206552A486D07005014D4;
+			productRefGroup = 49A2065F2A486D07005014D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49A2065D2A486D07005014D4 /* Tesla */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49A2065C2A486D07005014D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A206692A486D08005014D4 /* Preview Assets.xcassets in Resources */,
+				49A206662A486D08005014D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49A2065A2A486D07005014D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A206642A486D07005014D4 /* ContentView.swift in Sources */,
+				499B08672A6227E700740F69 /* View+Extensions.swift in Sources */,
+				499B08612A61C67000740F69 /* VoiceCommandView.swift in Sources */,
+				499B086A2A622BF800740F69 /* ChargingView.swift in Sources */,
+				49FAFBBB2A5DE00D00D35C5E /* LocationPanel.swift in Sources */,
+				494C71F82A4CE43D0057A27E /* ReorderButton.swift in Sources */,
+				4934E9DB2A51E3200097CDFA /* Location.swift in Sources */,
+				49A206782A489210005014D4 /* GeneralButton.swift in Sources */,
+				494E127A2A4A2FF800E438CD /* ActionItem.swift in Sources */,
+				49823EFF2A4F4059008F7CAF /* CarControlsView.swift in Sources */,
+				49A2067A2A489652005014D4 /* CustomDivider.swift in Sources */,
+				49A206762A488D78005014D4 /* HomeHeader.swift in Sources */,
+				49AAAB8A2A76905800D776DC /* HomeView.swift in Sources */,
+				49A206732A4886E6005014D4 /* VoiceCommandButton.swift in Sources */,
+				4934E9D42A518A260097CDFA /* ValetModeView.swift in Sources */,
+				49823F032A509B50008F7CAF /* CarControlActions.swift in Sources */,
+				494C71F42A4CA6EE0057A27E /* AllSettings.swift in Sources */,
+				49AAAB8E2A7692BD00D776DC /* SplashView.swift in Sources */,
+				499B085D2A61A3E900740F69 /* FullButton.swift in Sources */,
+				49823F012A507CF3008F7CAF /* CarLockButton.swift in Sources */,
+				494C71F62A4CAE070057A27E /* SettingCard.swift in Sources */,
+				499B085F2A61B7C700740F69 /* ActionNotification.swift in Sources */,
+				49A206622A486D07005014D4 /* TeslaApp.swift in Sources */,
+				494E126F2A499F5F00E438CD /* CategoryHeader.swift in Sources */,
+				49A2067C2A4898C7005014D4 /* CarSection.swift in Sources */,
+				494E12732A49B28B00E438CD /* CategoryView.swift in Sources */,
+				499B08642A61D41100740F69 /* MediaPlayerView.swift in Sources */,
+				49FAFBB92A5DCFBB00D35C5E /* CarPin.swift in Sources */,
+				4934E9D92A51AC990097CDFA /* LocationView.swift in Sources */,
+				494E12752A49B84900E438CD /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49A2066A2A486D08005014D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49A2066B2A486D08005014D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49A2066D2A486D08005014D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tesla/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AP6A6Q5MX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tesla/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tesla;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdossantosdev.Tesla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49A2066E2A486D08005014D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tesla/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AP6A6Q5MX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tesla/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Tesla;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdossantosdev.Tesla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49A206592A486D07005014D4 /* Build configuration list for PBXProject "Tesla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A2066A2A486D08005014D4 /* Debug */,
+				49A2066B2A486D08005014D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49A2066C2A486D08005014D4 /* Build configuration list for PBXNativeTarget "Tesla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49A2066D2A486D08005014D4 /* Debug */,
+				49A2066E2A486D08005014D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49A206562A486D07005014D4 /* Project object */;
+}
